@@ -1,0 +1,74 @@
+﻿:root {
+    --primary: #fff;
+}
+
+.bttn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    background-image: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bttn--primary {
+    background-color: #fff;
+    background-image: none;
+    color: #242424;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.bttn--outline {
+    background-color: transparent;
+    background-image: none;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    outline: none;
+}
+.bttn--outline--red {
+    background-color: transparent;
+    background-image: none;
+    color: red;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    outline: none;
+}
+
+.bttn--medium {
+    background-image: none;
+    padding: 8px 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+.bttn--large {
+    background-image: none;
+    padding: 12px 26px;
+    font-size: 20px;
+    outline: none;
+}
+
+    .bttn--medium:hover, .bttn--large:hover {
+        background-image: none;
+        background: #fff;
+        color: #242424;
+        transition: all 0.3s ease-out;
+        outline: none;
+    }
+.bttn--large--red {
+    background-image: none;
+    padding: 12px 26px;
+    font-size: 20px;
+    outline: none;
+}
+    .bttn--medium--red:hover, .bttn--large--red:hover {
+        background-image: none;
+        background: red;
+        color: #242424;
+        transition: all 0.3s ease-out;
+        outline: none;
+    }

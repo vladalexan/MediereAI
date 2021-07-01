@@ -1,0 +1,261 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.rcw-conversation-container > .rcw-header {
+    background-color: darkblue;
+}
+
+.rcw-message > .rcw-response {
+    background-color: darkblue;
+    color: white;
+}
+
+.home,
+.about,
+.formular,
+.contact,
+.report,
+.inregistrare {
+    display: flex;
+    min-height: 94vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.widget {
+    z-index: 999;
+}
+
+.forum {
+    display: flex;
+    min-height: 91.5vh;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.chart {
+    width: 100vh;
+    height: 40vh;
+    background-color: white;
+}
+
+.contact {
+    background: url('/images/Contact.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vh;
+}
+
+.report {
+    background: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vh;
+}
+
+.home {
+    background: url('/images/Home.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vh;
+}
+
+
+.about {
+    vertical-align: super;
+    color: #fff;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapouter {
+    flex-direction: row;
+}
+
+.forma-group {
+    background-color: transparent;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    min-width: 30%;
+    max-width: 50%;
+    margin-left: 3%;
+    font-size: 18px;
+}
+
+.texted {
+    max-width: 400px;
+}
+
+.data {
+    flex-direction: row;
+    display: flex;
+}
+
+.forma {
+    display: flex;
+    flex-direction: row;
+    max-width: 95%;
+    /*padding-right: 50px;*/
+}
+
+.formular2 {
+    min-height: 91.2vh;
+    background-color: transparent;
+    text-decoration-color: #fff;
+    font-size: 100px;
+}
+
+.history,
+.history:after {
+    background-color: transparent;
+    color: #fff;
+    font-size: 100px;
+}
+
+.reclamatii-background {
+    color: #fff;
+    min-height: 94vh;
+    background: url('/images/History.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login-background {
+    min-height: 92vh;
+    background: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.filelist {
+    border: dashed grey 4px;
+    background-color: white;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-shadow: none;
+    color: grey;
+    word-break: break-word;
+    /*/z-index: 100;*/
+    height: 100px !important;
+    width: 300px !important;
+}
+
+.displayContact {
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+}
+
+.titlu {
+}
+
+.allign {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.base-container,
+.tabel_render {
+    color: #fff;
+    font-size: 20px;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.formular {
+    background: url('/images/Formular.jpg') center center/cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 94.2vh;
+    font-size: 2.5vh;
+}
+
+.formular2 {
+    background: black;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.content2 {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.setup {
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+}
+
+@import url('./components/Pages/login.scss');
+
+@media only screen and (max-width: 960px) {
+    .forma {
+        flex-direction: column;
+    }
+}

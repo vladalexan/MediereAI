@@ -1,0 +1,99 @@
+{
+	"training":[
+		{
+			"tag": "salut",
+			"Question":[
+				"Hello",
+				"Hi",
+				"Good morning",
+				"Good day",
+				"Good afternoon",
+				"Hey"
+			],
+			"Answer":[
+				"Hello",
+				"Hi",
+				"Good morning",
+				"Good day",
+				"Good afternoon",
+				"Hey",
+				"Welcome"				
+			]
+		},
+		{
+			"tag": "financial",
+			"Question": [
+				"emptied bank account",
+				"tax fraud",
+				"",
+				"backed out of business",
+				"problems registering"
+
+			],
+			"Answer": [
+				"split it evenly",
+				"send proof to police",
+				"",
+				"find a compromise in business dealings",
+				"ask a professional for help"
+			]
+		},
+		{
+			"tag": "violence",
+			"Question": [
+				"physical violence",
+				"screaming and getting physically violent",
+				"violent behavior",
+				"hit me",
+				"punched me",
+				"abusive behavior",
+				"foul language"
+			],
+			"Answer": [
+				"You should send proof to police.",
+				"You should call the authorities and present the proof.",
+				"You should call the police when it happens.",
+				"You should end proof to the authorities.",
+				"You should get to safety and call the authorities"
+			]
+		},
+		{
+			"tag": "relationship",
+			"Question": [
+				"growing apart",
+				"weird behaviour",
+				"weird behavior",
+				"ignores",
+				"pushes away",
+				"treats me coldly",
+				"affair suspicion"
+			],
+			"Answer": [
+				"You should talk about it.",
+				"You should have a discussion about your relationship.",
+				"You should both think what is causing this rift.",
+				"You should talk about the future of the relationship.",
+				"You should consider the problems you have to fix together."
+			]
+		},
+		{
+			"tag": "relationship",
+			"Question": [
+				"growing apart",
+				"weird behaviour",
+				"weird behavior",
+				"ignores",
+				"pushes away",
+				"treats me coldly",
+				"affair suspicion"
+			],
+			"Answer": [
+				"You should talk about it.",
+				"You should have a discussion about your relationship.",
+				"You should both think what is causing this rift.",
+				"You should talk about the future of the relationship.",
+				"You should consider the problems you have to fix together."
+			]
+		}
+	]
+}
